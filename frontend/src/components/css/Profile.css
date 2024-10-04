@@ -1,0 +1,40 @@
+/* styles.css */
+.data-container {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-container h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.data-container pre {
+  background-color: #333;
+  color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  overflow-x: auto;
+}
+
+.loading {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+  color: #666;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+}

@@ -1,0 +1,123 @@
+/* General Styles */
+.login-body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('./vt.jpeg');
+  background-size: cover; /* Ensures the background image covers the entire viewport */
+  background-position: center; /* Centers the background image */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.9); /* Slightly more opaque background for better contrast */
+  border-radius: 50px; /* Oval shape */
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  
+  /* Animation */
+  animation: floatIn 1s ease-out; /* Apply animation */
+}
+
+/* Float Animation */
+@keyframes floatIn {
+  from {
+    transform: translateY(100%); /* Start from below the viewport */
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    transform: translateY(0); /* End at its original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Heading */
+.he2 {
+  text-align: center;
+  color: #000; /* Set heading color to black */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Input Group */
+.input {
+  margin-bottom: 1rem;
+}
+
+.input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #000; /* Set label text color to black */
+}
+
+.input input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px; /* Sharper corners */
+  font-size: 1rem;
+  box-sizing: border-box;
+  color: #000; /* Set input text color to black */
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly lighter background color */
+}
+
+::placeholder {
+  color: #cccccc; /* Optional: set placeholder color to light grey */
+}
+
+/* Button */
+button {
+  width: auto; /* Allow the width to adjust based on content */
+  padding: 0.75rem 2rem; /* Add more padding for an oval shape */
+  border: none;
+  border-radius: 25px; /* Large border radius for an oval shape */
+  background: #ff7e5f;
+  color: #fff; /* Keep button text color white */
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+  /* Centering */
+  display: block; /* Make it a block element for centering */
+  margin: 1rem auto; /* Center it horizontally */
+}
+
+button:hover {
+  background: #feb47b;
+}
+
+
+/* Link */
+.signup-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.signup-link p {
+  color: #000; /* Set link text color to black */
+}
+
+.signup-link a {
+  color: #ff7e5f; /* Set link color */
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

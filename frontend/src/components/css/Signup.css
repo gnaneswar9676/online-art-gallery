@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('./images/whote.jpg'); 
+  background-size: cover; /* Ensures the background image covers the entire viewport */
+  background-position: center; /* Centers the background image */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Sign-Up Container */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.signup-box {
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  border-radius: 50px; /* Oval shape */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Enhanced shadow for better contrast */
+  padding: 2rem;
+  max-width: 450px;
+  width: 100%; /* Full width for container */
+  max-height: 660px;
+  /* Animation */
+  animation: floatIn 1s ease-out; /* Apply the float animation */
+}
+
+/* Float Animation */
+@keyframes floatIn {
+  from {
+    transform: translateY(100%); /* Start from below the viewport */
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    transform: translateY(0); /* End at its original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Heading */
+.hl2 {
+  text-align: center;
+  color: #0e0d0d; /* Set heading color to black */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Input Group */
+.input1 {
+  margin-bottom: 1rem;
+}
+
+.input1 label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #050404; /* Set label text color to black */
+}
+
+.input1 input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Sharper corners for inputs */
+  font-size: 1rem;
+  box-sizing: border-box;
+  color: #0b0b0b; /* Set input text color to white */
+  background-color: rgba(255, 255, 255, 0.1); /* Slight background color */
+}
+
+::placeholder {
+  color: #cccccc; /* Optional: set placeholder color to light grey */
+}
+
+/* Button Styles */
+.animated-button {
+  width: auto; /* Allow the width to adjust based on content */
+  padding: 15px 30px; /* Vertical and horizontal padding */
+  margin: 20px auto; /* Center the button */
+  display: block; /* Make it a block element for centering */
+  background-color: #ff6347; /* Vibrant color (Tomato) */
+  color: #fff; /* White text color */
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  border-radius: 25px; /* Makes the button oval */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.animated-button:hover {
+  background-color: #ff4500; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.animated-button:active {
+  transform: scale(0.95); /* Slightly shrink on click */
+}
+.signup-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.signup-link p {
+  color: #000; /* Set link text color to black */
+}
+
+.signup-link a {
+  color: #ff7e5f; /* Set link color */
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

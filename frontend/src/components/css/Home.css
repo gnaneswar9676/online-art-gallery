@@ -1,0 +1,112 @@
+/* src/css/Home.css */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background-image: url('./images/whote.jpg'); /* Your background image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.logo {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  background-image: url('./images/logo.png'); /* Replace with your logo path */
+  background-size: cover;
+  margin-bottom: 20px; /* Space between logo and text */
+}
+
+.human-figure {
+  width: 150px; /* Adjust size as needed */
+  animation: move 3s infinite; /* Add the bobbing effect */
+  margin-bottom: 20px; /* Space below the image */
+}
+
+@keyframes move {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.gallery-title {
+  font-size: 2.5rem;
+  color: #000; /* Black text color */
+  font-weight: bold; /* Bold text */
+  margin: 10px 0;
+  text-align: center;
+  animation: fadeInUp 3s ease-out; /* Apply animation */
+}
+
+.gallery-description {
+  font-size: 1.2rem;
+  color: #000; /* Black text color */
+  font-weight: bold; /* Bold text */
+  text-align: center;
+  max-width: 600px; /* Limit the width of the description */
+  line-height: 1.5; /* Spacing between lines */
+  animation: fadeInUp 3s ease-out 0.2s; /* Apply animation with a delay */
+}
+
+/* Button Styles */
+.animated-button {
+  display: inline-block;
+  padding: 15px 30px; /* Vertical and horizontal padding */
+  margin-top: 20px; /* Space above the button */
+  background-color: #ff6347; /* Vibrant color (Tomato) */
+  color: #fff; /* White text color */
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  border-radius: 50px; /* Makes the button oval */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.animated-button:hover {
+  background-color: #ff4500; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.animated-button:active {
+  transform: scale(0.95); /* Slightly shrink on click */
+}
+.human-cartoon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 100px;
+  background-color: #ffcc00; /* Cartoon color */
+  border-radius: 10px;
+  animation: moveToCenter 5s ease-in-out forwards;
+}
+
+@keyframes moveToCenter {
+  0% {
+      bottom: 0;
+      left: 0;
+  }
+  50% {
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  100% {
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+}

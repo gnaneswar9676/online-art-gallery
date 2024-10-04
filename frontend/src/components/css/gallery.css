@@ -1,0 +1,64 @@
+/* src/components/Home.css */
+.About-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #d3e8f0;
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background stay fixed during scroll */
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left side) */
+    align-items: center;
+    padding-left: 20px; /* Optional: Add padding to the left for better spacing */
+  }
+  
+  .container {
+    max-width: 650px; /* Adjust width as needed */
+    padding: 30px;
+    text-align: left; /* Align text to the left inside the container */
+   
+  }
+  
+  h1 {
+    color: #d3e8f0; /* Light blue color for the text */
+    font-size: 3rem; /* Font size for the heading */
+  }
+  
+  p {
+    color: #d3e8f0; /* Color for the paragraph text */
+    font-size: 1.2rem; /* Font size for the paragraph */
+  }
+  
+  /* src/components/Home.css */
+  
+  /* Existing styles remain unchanged */
+  
+  /* From Uiverse.io by aasisodiya */ 
+  /* From Uiverse.io by aasisodiya */ 
+  /* src/components/Home.css */
+  
+  /* Other existing styles */
+  
+  /* Button Styles for Link Component */
+  .button1 {
+    display: inline-block; /* Make sure the link behaves like a button */
+    padding: 0.75rem 1.5rem; /* Adjust padding for button appearance */
+    border: none;
+    border-radius: 10px; /* Slightly rounded corners */
+    background: #ff7e5f; /* Background color */
+    color: white; /* Button text color */
+    font-size: 1.1rem; /* Font size */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline from the link */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s ease; /* Smooth background transition */
+  }
+  
+  .button1:hover {
+    background: #ff6f5f; /* Darker shade for hover effect */
+  }
+  
