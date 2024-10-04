@@ -3,8 +3,10 @@
 We’re developing an online art gallery designed to provide artists with a global platform to showcase their works. This gallery will feature interactive 3D tours, allowing visitors to explore the exhibits virtually. Each artwork is accompanied by detailed cultural context to enhance the educational experience.
 
 The platform will also offer a user-friendly interface for artists to upload, manage, and sell their pieces, as well as tools for curators to organize and display exhibits in a dynamic and engaging way. Our vision is to combine technology, art, and culture to bring an immersive experience to a worldwide audience.
+![image](https://github.com/user-attachments/assets/691366c9-798d-4742-8292-91219cf93b26)
 
 
+![image](https://github.com/user-attachments/assets/fd32dae0-99fe-49a3-b793-fd83a8acbd65)
 
 
 
@@ -66,6 +68,7 @@ Be able to offer some expert commentary on every artwork added for educational v
 Block Diagram / System Architecture
 
 
+![image](https://github.com/user-attachments/assets/b1a51167-e7a0-41f4-9880-21a3ea15e598)
 
 
 This section must contain a diagram showing the system's architecture:
@@ -84,6 +87,7 @@ Prototype Design
 
 You may add a prototype design video or images in this section showing exactly what the application will look and work like. This might include such items as an artist's dashboard view to indicate how they can upload their works and control sales, a virtual gallery tour view to show how users can navigate the gallery space and interact with the artwork, and a visitor's interface that can highlight the details of the artwork and purchasing options.
 
+![image](https://github.com/user-attachments/assets/e977e32a-348b-4832-b5f4-d2bca51dc52b)
 
 
 
